@@ -1,0 +1,30 @@
+
+@import "tailwindcss";
+@import "./style/cutout.css";
+@import "./style/effect.css";
+
+
+:root {
+  color-scheme: light;
+  --bg: #f6f7fb; --fg: #12131a; --mut: #6a6d80;
+  --ac: #5b4bff; --ac2: #00a88f; --pan: rgba(255,255,255,.85); --ln: rgba(0,0,0,.1);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) { color-scheme: dark; --bg: #07080d; --fg: #e8eaf6; --mut: #8b8fa8; --ac: #8b7bff; --ac2: #3ef0c8; --pan: rgba(14,15,24,.85); --ln: rgba(255,255,255,.12); }
+}
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; --bg: #07080d; --fg: #e8eaf6; --mut: #8b8fa8; --ac: #8b7bff; --ac2: #3ef0c8; --pan: rgba(14,15,24,.85); --ln: rgba(255,255,255,.12); }
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-mut: var(--mut);
+  --color-ac: var(--ac);
+  --color-ac2: var(--ac2);
+  --color-pan: var(--pan);
+  --color-ln: var(--ln);
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+}
+
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-mono); }
