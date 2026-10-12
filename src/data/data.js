@@ -8,7 +8,7 @@ export const ME = {
   github: "https://github.com/LimKethyaRavy",
   linkedin: "linkedin.com/in/yourname",
   where: "Remote · Worldwide",
-  uni: "Computer Science",
+  uni: "Manegtment Information System",
   bio: [
     "I build accessible, polished software that blends product thinking with technical depth.",
     "My work sits between frontend architecture, problem solving, and practical engineering decisions that scale with real users.",
@@ -60,33 +60,32 @@ export const EDU = [
     d: "Focused on software engineering, systems thinking, and human-centered product design.",
   },
   {
-    t: "Data Structures & Algorithms",
-    o: "School of Engineering",
-    y: "2023",
-    d: "Strengthened problem-solving foundations in graphs, dynamic programming, and optimization.",
+    t: "Fullstack web development",
+    o: "ETEC CENTER",
+    y: "2026",
+    d: "Finish full stack course and project defense from ETEC Center",
   },
   {
-    t: "Human-Centered Computing",
-    o: "Interactive Systems Lab",
-    y: "2022",
-    d: "Explored UX heuristics, accessibility, and design methods for real-world digital products.",
+    t: "WEB DESIGN JUNIOR GEN 4",
+    o: "ISTAD",
+    y: "2025",
+    d: "Finsih web design and project competition cousre from ISTAD",
   },
 ];
 
 export const COURSES = [
   "Software Engineering",
   "Operating Systems",
-  "Machine Learning",
   "Database Systems",
   "Web Development",
   "Computer Networks",
 ];
 
 export const CERTS = [
-  "JavaScript Algorithms and Data Structures",
-  "Responsive Web Design",
-  "Frontend Development Foundations",
-  "Advanced React Patterns",
+  "Frontend development",
+  "Backend development",
+  "WEB design junior",
+  "UXUI design Challenge",
 ];
 
 export const ACH = [
@@ -97,24 +96,62 @@ export const ACH = [
 ];
 
 export const EXP = [
+  
   {
-    r: "Software Engineer Intern",
-    o: "Startup Studio",
-    y: "2024",
+    r: "UXUI DESIGN MIS Challenge",
+    o: "Book Heaven",
+    y: "2025",
     d: [
-      "Built internal tooling and improved frontend quality across product features.",
-      "Worked closely with product and design to turn ideas into polished, testable interfaces.",
-      "Improved performance, maintainability, and developer workflow in a fast-moving team environment.",
+      "Design an unique base user exprience web about book store using Figma",
+    ],
+  },
+
+    {
+    r: "UXUI DESIGN MIS Challenge",
+    o: "ZENDO",
+    y: "2026",
+    d: [
+      "Design an UI WEB of Zendo website using FIGMA",
     ],
   },
   {
-    r: "Frontend Developer",
-    o: "Student Lab",
-    y: "2023",
+    r: "Static Web Html and css",
+    o: "Department of Computer Science",
+    y: "2025",
     d: [
-      "Created interactive interfaces and dashboards for research and student-facing projects.",
-      "Collaborated across teams to align UX decisions with technical feasibility.",
-      "Iterated quickly on prototypes and improved the project delivery experience.",
+      "Build an static web about department of COST using html and css",
+     
+    ],
+  },
+
+    {
+    r: "POS Window form C#",
+    o: "POS SYSTEM",
+    y: "2026",
+    d: [
+      "Build an pos window form system about coffee bussiness with sql server and c# .net framework",
+     
+    ],
+  },
+
+    {
+    r: "Frontend",
+    o: "Lumere Movie Streaming",
+    y: "2026",
+    d: [
+      "Build frontend web about movie streaming website using React js",
+     
+    ],
+  },
+
+  
+    {
+    r: "Fullstack",
+    o: "Hotel manegment syste,",
+    y: "2026",
+    d: [
+      "Build full stack web about hotel manegtment system inlcude public side and admin dashbaord using React and Laravel and mysql server",
+     
     ],
   },
 ];
