@@ -14,6 +14,7 @@ export default function About() {
           {ME.bio.map((t, i) => <p key={i} className="my-1.5 leading-relaxed">{t}</p>)}
           <p className="mb-0.5 mt-3 text-mut">Interests</p><div>{ME.interests.map((x) => <span key={x} className={tag}>{x}</span>)}</div>
           <p className="mb-0.5 mt-3 text-mut">Languages</p><div>{ME.languages.map((x) => <span key={x} className={tag}>{x}</span>)}</div>
+           <p className="mb-0.5 mt-3 text-mut">Framework</p><div>{ME.Framework.map((x) => <span key={x} className={tag}>{x}</span>)}</div>
         </div>
       </div>
     </>

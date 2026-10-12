@@ -2,10 +2,10 @@
 export const ME = {
   name: "Lim KethyaRavy",
   tag: "I turn algorithms into things people can actually use.",
-  roles: ["CS student", "problem solver", "full-stack builder", "lifelong learner"],
+  roles: ["MIS student", "problem solver", "full-stack builder", "lifelong learner"],
   resume: "#",
-  email: "hello@example.com",
-  github: "github.com/yourname",
+  email: "limkethyaravycybermail@gmail.com",
+  github: "https://github.com/LimKethyaRavy",
   linkedin: "linkedin.com/in/yourname",
   where: "Remote · Worldwide",
   uni: "Computer Science",
@@ -15,7 +15,9 @@ export const ME = {
     "I enjoy turning ideas into working experiences that feel simple, fast, and memorable.",
   ],
   interests: ["AI", "product design", "systems", "learning", "UX"],
-  languages: ["English", "JavaScript", "TypeScript", "Python"],
+  languages: ["English", "JavaScript", "TypeScript", "PHP", "C#"],
+  Framework: ["React", "Angular", "Tailwind", "Bootstrap", "Laravel"],
+  
   stats: [
     { v: "3.5", l: "GPA" },
     { v: "6+", l: "projects" },
@@ -146,4 +148,5 @@ export const TECH = [
   ["⚛", "#61dafb", "React"],
   ["JS", "#f7df1e", "Node.js"],
   ["Git", "#f05032", "Git"],
+  // ["Angular", "#f05032", "Angular"],
 ];
