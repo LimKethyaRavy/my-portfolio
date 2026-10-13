@@ -13,12 +13,12 @@ export const ME = {
   where: "Remote · Worldwide",
   uni: "Manegtment Information System",
   bio: [
-    "I build accessible, polished software that blends product thinking with technical depth.",
-    "My work sits between frontend architecture, problem solving, and practical engineering decisions that scale with real users.",
-    "I enjoy turning ideas into working experiences that feel simple, fast, and memorable.",
+    "I'm a second-year tech student turning coffee into code and bugs into life lessons.",
+    "Currently exploring the world of full-stack development, one project and one error at a time. I love building things for the web, learning new technologies, and figuring out why my code worked five minutes ago but suddenly doesn't.",
+    "My goal? Become a full-stack developer who builds cool things that actually work.",
   ],
-  interests: ["AI", "product design", "systems", "learning", "UX"],
-  languages: ["English", "JavaScript", "TypeScript", "PHP", "C#"],
+  interests: ["WEB Developement", "Security", "systems", "learning", "UX"],
+  languages: ["English", "JavaScript", "TypeScript", "PHP", "C#", "Python", "C++", "C", "C#"],
   Framework: ["React", "Angular", "Tailwind", "Bootstrap", "Laravel"],
   
   stats: [
