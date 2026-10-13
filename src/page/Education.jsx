@@ -22,8 +22,20 @@ export default function Education() {
           <h3 className={h3 + " !mt-0"}>Core courses</h3>
           <div className="flex flex-wrap gap-2">{COURSES.map((c, i) => <span key={c} className="crs cursor-default rounded-full border border-ln bg-pan px-3 py-1.5 text-xs transition hover:-translate-y-0.5 hover:bg-ac hover:text-white" style={{ "--d": i * 70 + "ms" }}>{c}</span>)}</div>
           <h3 className={h3}>Earlier</h3>
-          {EDU.slice(1).map((e) => <div key={e.t} className={box}><b>{e.t}</b><div className="text-xs text-mut">{e.o} · {e.y}</div><p className="my-1.5 leading-relaxed">{e.d}</p></div>)}
+          {EDU.slice(1, 3).map((e) => <div key={e.t} className={box}><b>{e.t}</b><div className="text-xs text-mut">{e.o} · {e.y}</div><p className="my-1.5 leading-relaxed">{e.d}</p></div>)}
         </div>
+
+        <div>
+            <h3 className={h3}>HighSchool</h3>
+              {EDU.slice(3,4).map((e) => <div key={e.t} className={box}><b>{e.t}</b><div className="text-xs text-mut">{e.o} · {e.y}</div><p className="my-1.5 leading-relaxed">{e.d}</p></div>)}
+        </div>
+
+           <div>
+            <h3 className={h3}>Universisty</h3>
+              {EDU.slice(4,6).map((e) => <div key={e.t} className={box}><b>{e.t}</b><div className="text-xs text-mut">{e.o} · {e.y}</div><p className="my-1.5 leading-relaxed">{e.d}</p></div>)}
+        </div>
+        
+
       </div>
       <h3 className={h3 + " mt-7"}>Certificates</h3>
       <div className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">

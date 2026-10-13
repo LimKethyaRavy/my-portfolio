@@ -6,7 +6,10 @@ export const ME = {
   resume: "#",
   email: "limkethyaravycybermail@gmail.com",
   github: "https://github.com/LimKethyaRavy",
-  linkedin: "linkedin.com/in/yourname",
+  linkedin: "https://www.linkedin.com/in/lim-kethyaravy-ba527a3b5/",
+  facebook: "https://www.facebook.com/EchoVincentt/",
+  tiktok: "https://www.tiktok.com/@vincent__cyber_?is_from_webapp=1&sender_device=pc",
+  telegram: "https://t.me/vincent_cyberr",
   where: "Remote · Worldwide",
   uni: "Manegtment Information System",
   bio: [
@@ -55,7 +58,7 @@ export const PROJECTS = [
   },
     {
     n: "MINI POS",
-    image: "",
+    image: "public/image/pos1.png",
     d: "MINI POS with crud concept that allow user to buy create products",
     hi: "Build with JS, Jquery, bootsrap, localstorage",
     s: ["Java Script", "Bootstrap", "Jquery", "localstorage"],
@@ -73,7 +76,7 @@ export const PROJECTS = [
 
      {
     n: "C# Window form POS",
-    image: "",
+    image: "public/image/pos2.png",
     d: "Build window form pos with c# .net framework with sql server",
     hi: "Build with c# sql server",
     s: ["C#", "SQL Server"],
@@ -82,7 +85,7 @@ export const PROJECTS = [
 
        {
     n: "Figma UXUI",
-    image: "",
+    image: "public/image/figma1.png",
     d: "Design UI web of Book Store base user exprience and prototype",
     hi: "Build Figma",
     s: ["Figma"],
@@ -91,7 +94,7 @@ export const PROJECTS = [
 
     {
     n: "Figma UXUI",
-    image: "",
+    image: "public/image/zendo _figma.png",
     d: "Zendo mobile app UI desing base on real app reference UI clone",
     hi: "Build Figma",
     s: ["Figma"],
@@ -100,7 +103,7 @@ export const PROJECTS = [
 
     {
     n: "MINI Project Museum Website",
-    image: "",
+    image: "public/image/TheArtProject.png",
     d: "The art is about museum related web that display cultire statue og Khmer culture",
     hi: "Build with html tailwind and JS",
     s: ["Html", "Tailwind", "Javascript"],
@@ -127,6 +130,25 @@ export const EDU = [
     o: "ISTAD",
     y: "2025",
     d: "Finsih web design and project competition cousre from ISTAD",
+  },
+
+    {
+    t: "High School",
+    o: "CheaSim Samaki",
+    y: "2019-2024",
+    d: "High School Junior Graduate BACLL",
+  },
+     {
+    t: "The Universisty of Cambodia",
+    o: "Collge Of Science And Technology",
+    y: "2024-2025",
+    d: "Majoring Inoformation Technology",
+  },
+     {
+    t: "Setec Institue",
+    o: "Manegment Information System",
+    y: "2025-Present",
+    d: "Moved from The University of Cambodia to Setec Institue Major MIS",
   },
 ];
 
@@ -244,6 +266,15 @@ export const SKILLS = {
       ["Sql Server", 70],
 
   ],
+
+      "IDE": [
+    ["Visual Code (VS Cod)", 80],
+     ["Visual Code Studio ", 70],
+      ["Web Strom", 50],
+      ["PyCharm", 50],
+
+  ],
+
   "Systems": [
     ["Git", 92],
     ["APIs", 86],

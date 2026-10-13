@@ -1,0 +1,30 @@
+.soc {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  border: 1px solid var(--ln);
+  border-radius: 0.75rem;
+  background: var(--pan);
+  color: var(--fg);
+  text-decoration: none;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.soc:hover {
+  transform: translateY(-2px);
+  border-color: var(--c);
+  background: var(--c);
+  color: #fff;
+}
+
+.soc:focus-visible {
+  outline: 2px solid var(--c);
+  outline-offset: 2px;
+}
+
+.soc-lg {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.125rem;
+}
