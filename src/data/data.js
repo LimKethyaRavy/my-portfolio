@@ -30,33 +30,90 @@ export const NAV = ["home", "about", "education", "experience", "projects", "ski
 
 export const PROJECTS = [
   {
-    n: "Portfolio OS",
-    d: "A small design-forward portfolio with a terminal-inspired launcher, polished motion, and clean storytelling for personal work.",
-    hi: "React + Tailwind + custom interaction design",
-    s: ["React", "Tailwind", "Vite"],
-    link: "https://github.com/yourname/portfolio-os",
+    n: "RESTARANT PROJECT PHP",
+    image: "public/image/project1.png",
+    d: "A Small project build for resatrnat manegement include public side and admin dasboard",
+    hi: "Using raw php technolgoy + mysql + ajax",
+    s: ["PHP", "Tailwind", "MYSQL", "AJAX"],
+    link: "https://github.com/LimKethyaRavy/PHP_RESTURANT_PROJECT",
   },
   {
-    n: "Study Planner",
-    d: "A productivity-focused planner for organizing courses, tasks, and progress with clear weekly flows.",
-    hi: "Built around focused workflows and daily momentum",
-    s: ["JavaScript", "CSS", "UX"],
-    link: "https://github.com/yourname/study-planner",
+    n: "Coffee WEB RPOJECT ",
+    image: "public/image/coffee_laravel.png",
+    d: "Build this web for helping customer to order coffee online by website in modern day easy buy easy get",
+    hi: "Build with Laravel version 10 using blade template for UI frontend",
+    s: ["Laravel", "Blade", "MYSQL"],
+    link: "https://github.com/LimKethyaRavy/CoffeeWeb-Laravel",
   },
   {
-    n: "Algorithm Lab",
-    d: "A visual playground for exploring sorting and pathfinding concepts with clean, readable experimentation UI.",
-    hi: "Turned abstract algorithms into interactive learning tools",
-    s: ["Algorithms", "D3", "UI"],
-    link: "https://github.com/yourname/algorithm-lab",
+    n: "Lumora Movie",
+    image: "",
+    d: "Build frontend for movie streaming web that allow user to watch search filter any movie ",
+    hi: "Build with React Js Tailwind and intergrate with TMDB API",
+    s: ["React", "Tailwind", "TMDB API"],
+    link: "https://github.com/LimKethyaRavy/Lumora-Movie-Web",
   },
+    {
+    n: "MINI POS",
+    image: "",
+    d: "MINI POS with crud concept that allow user to buy create products",
+    hi: "Build with JS, Jquery, bootsrap, localstorage",
+    s: ["Java Script", "Bootstrap", "Jquery", "localstorage"],
+    link: "https://github.com/LimKethyaRavy/SW35-MINI-POS-FINAL",
+  },
+
+   {
+    n: "Hotel Manegment System",
+    image: "",
+    d: "Fullstack hotel system inlcude pbluc side and admin dasboard and bakong khqr",
+    hi: "Build with React js, Laravel verion 10, mysql , oauth, bakong khqr, API",
+    s: ["React", "laravel", "Mysql", "Oauth", "Bakong Khqr"],
+    link: "https://github.com/LimKethyaRavy/SW35-MINI-POS-FINAL",
+  },
+
+     {
+    n: "C# Window form POS",
+    image: "",
+    d: "Build window form pos with c# .net framework with sql server",
+    hi: "Build with c# sql server",
+    s: ["C#", "SQL Server"],
+    link: "https://github.com/LimKethyaRavy/SW35-MINI-POS-FINAL",
+  },
+
+       {
+    n: "Figma UXUI",
+    image: "",
+    d: "Design UI web of Book Store base user exprience and prototype",
+    hi: "Build Figma",
+    s: ["Figma"],
+    link: "https://www.figma.com/proto/9nvkRwjkiqE0xZNzVc8pTJ/Book-Haven?node-id=19-139&t=TYtE910IEYhCmw5h-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A139",
+  },
+
+    {
+    n: "Figma UXUI",
+    image: "",
+    d: "Zendo mobile app UI desing base on real app reference UI clone",
+    hi: "Build Figma",
+    s: ["Figma"],
+    link: "https://www.figma.com/design/nTjKOh0kuNkaXyxKZHla5U/ZendoMobileApp?node-id=0-1&t=Lb32N5nY70Es0vBY-1",
+  },
+
+    {
+    n: "MINI Project Museum Website",
+    image: "",
+    d: "The art is about museum related web that display cultire statue og Khmer culture",
+    hi: "Build with html tailwind and JS",
+    s: ["Html", "Tailwind", "Javascript"],
+    link: "https://github.com/Phoeurnsolyta/Istad-group1-miniproject",
+  },
+
 ];
 
 export const EDU = [
   {
-    t: "B.S. Computer Science",
-    o: "University Name",
-    y: "2021 — 2025",
+    t: "B.S. Manegment Information System",
+    o: "SETEC INSTITUE",
+    y: "2025 — 2026",
     d: "Focused on software engineering, systems thinking, and human-centered product design.",
   },
   {

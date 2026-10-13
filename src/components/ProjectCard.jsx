@@ -9,6 +9,15 @@ export default function ProjectCard({ p, i }) {
         <span className="ml-2 text-[11px] text-mut">{slug(p.n)}.app</span>
       </div>
       <h3 className="mb-1.5 font-display text-[22px] font-bold text-ac">{p.n}</h3>
+      <div className="mb-3.5 overflow-hidden rounded-xl border border-dashed border-ln bg-gradient-to-br from-ac/10 via-transparent to-ac2/10">
+        {p.image ? (
+          <img src={p.image} alt={`${p.n} preview`} className="h-32 w-full object-cover" />
+        ) : (
+          <div className="flex h-32 items-center justify-center bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.18),_transparent_50%)] text-center text-[10px] font-medium uppercase tracking-[0.27em] text-mut/80">
+            image placeholder
+          </div>
+        )}
+      </div>
       <p className="my-1.5 leading-relaxed">{p.d}</p>
       <p className="text-ac2">↳ {p.hi}</p>
       <div>{p.s.map((x) => <span key={x} className={tag}>{x}</span>)}</div>
