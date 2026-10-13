@@ -1,7 +1,7 @@
 // All your personal content lives here. Edit this file only.
 export const ME = {
   name: "Lim KethyaRavy",
-  tag: "I turn algorithms into things people can actually use.",
+  tag: "I am a second yeat majoring Manegment Information System",
   roles: ["MIS student", "problem solver", "full-stack builder", "lifelong learner"],
   resume: "#",
   email: "limkethyaravycybermail@gmail.com",
@@ -47,7 +47,7 @@ export const PROJECTS = [
   },
   {
     n: "Lumora Movie",
-    image: "",
+    image: "public/image/movie.png",
     d: "Build frontend for movie streaming web that allow user to watch search filter any movie ",
     hi: "Build with React Js Tailwind and intergrate with TMDB API",
     s: ["React", "Tailwind", "TMDB API"],
@@ -64,7 +64,7 @@ export const PROJECTS = [
 
    {
     n: "Hotel Manegment System",
-    image: "",
+    image: "public/image/hotel.png",
     d: "Fullstack hotel system inlcude pbluc side and admin dasboard and bakong khqr",
     hi: "Build with React js, Laravel verion 10, mysql , oauth, bakong khqr, API",
     s: ["React", "laravel", "Mysql", "Oauth", "Bakong Khqr"],
@@ -215,16 +215,34 @@ export const EXP = [
 
 export const SKILLS = {
   "Languages": [
-    ["Python", 92],
-    ["JavaScript", 95],
-    ["TypeScript", 88],
-    ["C++", 82],
+    ["Python", 50],
+    ["JavaScript", 80],
+    ["TypeScript", 75],
+    ["C++", 70],
+     ["C", 70],
+     ["C#", 75],
+     ["PHP", 75],
   ],
   "Frontend": [
-    ["React", 94],
+    ["React", 80],
     ["Tailwind", 90],
-    ["UI/UX", 88],
+     ["BOOTSTRAP", 90],
+        ["Angular", 40],
+    ["UI/UX", 90],
     ["Accessibility", 85],
+  ],
+
+    "Backend": [
+    ["Laravel", 75],
+
+  ],
+
+  
+    "Database": [
+    ["MYSQL", 80],
+     ["MongoDB", 70],
+      ["Sql Server", 70],
+
   ],
   "Systems": [
     ["Git", 92],
